@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Dashboard", href: "/Home", current: false },
-  { name: "Team", href: "/Team", current: true },
-  { name: "Projects", href: "/Projects", current: false },
+  { name: "Team", href: "/Team", current: false },
+  { name: "Projects", href: "/Projects", current: true },
 ];
 
 function classNames(...classes) {
@@ -168,7 +168,7 @@ function Navbar() {
   );
 }
 
-const Team = () => {
+const Projects = () => {
   return (
     <div>
       <Navbar />
@@ -176,4 +176,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Projects;
